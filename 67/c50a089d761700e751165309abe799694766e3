@@ -1,0 +1,40 @@
+.gitattributes
+  h_1d1a3d05761997 1-10
+.gitignore
+  h_1d1a3d05761997 1-19
+LICENSE
+  h_1d1a3d05761997 1-21
+README.md
+  h_1d1a3d05761997 1-235
+client/client.js
+  h_1d1a3d05761997 1-1833
+cordis.patch.yml
+  h_1d1a3d05761997 1-4
+lib/agents.js
+  h_1d1a3d05761997 1-400
+lib/health.js
+  h_1d1a3d05761997 1-216
+lib/index.js
+  h_1d1a3d05761997 1-36
+lib/mcp.js
+  h_1d1a3d05761997 1-395
+lib/skills.js
+  h_1d1a3d05761997 1-811
+lib/util.js
+  h_1d1a3d05761997 1-270
+lib/yaml.js
+  h_1d1a3d05761997 1-353
+package.json
+  h_1d1a3d05761997 1-56
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "67c50a089d761700e751165309abe799694766e3",
+  "prompts": {},
+  "humans": {
+    "h_1d1a3d05761997": {
+      "author": "xiangwei <18573714766@139.com>"
+    }
+  }
+}
