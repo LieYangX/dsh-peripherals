@@ -1,0 +1,56 @@
+{
+  "name": "dsh-peripherals",
+  "version": "0.1.0",
+  "description": "DeepSeek Harness 插件：在侧栏「外设」面板里统一管理 MCP 服务器、技能（Skill）与 AGENTS.md 个性指令",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./client/client.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "client",
+    "cordis.patch.yml",
+    "docs",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-slots"
+      ],
+      "platform": "web"
+    }
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "mcp",
+    "mcp-servers",
+    "skill",
+    "skills",
+    "agents-md",
+    "peripherals"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT",
+  "author": "xiangwei",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lieyang/dsh-peripherals.git"
+  },
+  "homepage": "https://github.com/lieyang/dsh-peripherals#readme",
+  "bugs": {
+    "url": "https://github.com/lieyang/dsh-peripherals/issues"
+  }
+}

@@ -1,0 +1,4 @@
+# dsh bundle patch：把「外设」面板（MCP 服务器 / 技能 / 个性指令）挂进 profile 的加载树。
+- insert:
+    - id: dsh-peripherals
+      name: 'dsh-peripherals'
